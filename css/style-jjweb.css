@@ -1,0 +1,13 @@
+figure.effect-portfolio:hover h2{
+	color: #002EB8;
+}
+#vision{
+	background: none;
+	background-color: white;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+figure.effect-portfolio h2 {
+	padding-top: 35%;
+}

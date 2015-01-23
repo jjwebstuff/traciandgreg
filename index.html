@@ -4,10 +4,10 @@
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Awesome Photography/Portfolio Template - Home Version 1</title>
-    <meta name="description" content="Solstice Photography/Portfolio Template">
-    <meta name="keywords" content="portfolio template, photography template, creative, bootstrap, html5/css5">
-    <meta name="author" content="JLP Media">
+    <title>Traci And Greg</title>
+    <meta name="description" content="Traci and Greg's Wedding Site">
+    <meta name="keywords" content="">
+    <meta name="author" content="JJWeb">
 
     <!-- Mobile Specific Metas
     ================================================== -->
@@ -19,14 +19,15 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style-jjweb.css">
     <link rel="stylesheet" type="text/css" href="css/responsiveness.css">
 
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon.png">
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
@@ -57,18 +58,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>              
           </button>
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a> <!-- Your logo here-->
+          <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a> -->
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="page-scroll" href="#banner">Home</a></li>
-            <li><a class="page-scroll" href="#vision">Vision</a></li>
-            <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
-            <li><a class="page-scroll" href="#about">About</a></li>
-            <li><a class="page-scroll" href="#footer">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">PROPOSAL</a></li>
+            <li><a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">CEREMONY</a></li>
+            <li><a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">BRIDAL</a></li>
+            <li><a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">TRIP</a></li>
+            <li><a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">SNAPSHOTS</a></li>
+            <li><a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">REGISTRY</a></li>
           </ul>
         </div><!-- End navbar-collapse -->
       </div><!-- End container -->
@@ -80,123 +81,22 @@
 
       <div class="carousel-inner"><!-- Inner wrapper for slides -->
         <div class="item active"> <!-- First item slider -->
-          <img src="img/banners/01_bg.jpg" alt="banner-img"> <!-- First item background image slider -->
-          <div class="carousel-caption overlay">
-            <div class="content">
-              <div class="text wow bounceIn" data-wow-delay="0.2s">
-                <h1>Awesome Photography</h1>
-                <hr>
-              </div>
-            </div>
-          </div> <!-- End first item background image slider -->
+          <img src="img/banners/web-homepage.png" alt="banner-img"> <!-- First item background image slider -->
         </div> <!-- End first item slider -->
-
-        <div class="item"> <!-- Second item slider -->
-          <img src="img/banners/02_bg.jpg" alt="banner-img"> <!-- Second item background image slider -->
-          <div class="carousel-caption">
-            <div class="content">
-              <div class="text wow bounceIn">
-                <h1>Animal Photography</h1>
-                <hr>
-              </div>
-            </div>
-          </div> <!-- End second item background image slider -->
-        </div> <!-- End second item slider -->
-
-        <div class="item"> <!-- Third item slider -->
-          <img src="img/banners/03_bg.jpg" alt="banner-img"> <!-- Third item background image slider -->
-          <div class="carousel-caption">
-            <div class="content">
-              <div class="text wow bounceIn">
-                <h1>Landscape Photography</h1>
-                <hr>
-              </div>
-            </div>
-          </div> <!-- End third item background image slider -->
-        </div> <!-- End third item slider -->
-
-        <div class="item"> <!-- Fourth item slider -->
-          <img src="img/banners/04_bg.jpg" alt="banner-img"> <!-- Fourth item background image slider -->
-          <div class="carousel-caption">
-            <div class="content">
-              <div class="text wow bounceIn">
-                <h1>Digital Photography</h1>
-                <hr>
-              </div>
-            </div>
-          </div> <!-- End fourth item background image slider -->
-        </div> <!-- End fourth item slider -->
-
-        <div class="item"> <!-- Fifth item slider -->
-          <img src="img/banners/05_bg.jpg" alt="banner-img"> <!-- Fifth item background image slider -->
-          <div class="carousel-caption">
-            <div class="content">
-              <div class="text wow bounceIn">
-                <h1>All About Photography</h1>
-                <hr>
-              </div>
-            </div>
-          </div> <!-- End fifth item background image slider -->
-        </div> <!-- End fifth item slider -->
       </div> <!-- End inner wrapper for slides -->
 
-      <!-- Controls -->
-      <a class="left carousel-control" href="#banner" role="button" data-slide="prev">
-        <img src="img/06_left.png" alt="prev-img"> <!-- Left controls -->
-      </a>
-      <a class="right carousel-control" href="#banner" role="button" data-slide="next">
-        <img src="img/05_right.png" alt="next-img"> <!-- Right controls -->
-      </a>
     </header>
 
 
     <!-- Vision/Mission 
     ================================================== -->
     <section id="vision">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <div class="dark-overlay vision">
-                <div class="vision-border centered wow bounceIn">
-                  <h4>Design To Showcase</h4>
-                  <h2>Photography</h2>
-                  <h6>The need to capture the moment and freeze it for life.</h6>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="dark-overlay vision">
-                <div class="vision-border centered wow bounceIn">
-                  <h4>Capture The Moment</h4>
-                  <h2>Photography</h2>
-                  <h6>Quality photography that preserves treasured memories.</h6>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="dark-overlay vision">
-                <div class="vision-border centered wow bounceIn">
-                  <h4>Still-life Images</h4>
-                  <h2>Photography</h2>
-                  <h6>Take alot of photos not war.</h6>
-                </div>
-              </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Greg and I live happily in Dallas, Texas with our overly needy black lab mystery, Tux.  We met sometime in late 2009 while we both worked at Team Detroit. We started as friends and would hang out all the time. After Greg decided I wasn’t that annoying, didn’t really talk too loud, or laugh all that loud; and after I realized how cute he was, it became something more. In March 2011 Greg was offered an amazing opportunity at 3008, a post house in Dallas, Texas. The following July, with daddy’s approval, I moved as well. Greg is still with 3008 doing sound design and mixing for commercials. I had a couple jobs and landed and amazing position with Color Box Letterpress, doing letterpress invitations for weddings, galas and whatever else comes across my desk. We’re excited to see everyone and be with our family and friends for such a joyous occasion!</p>
           </div>
-
         </div>
-    <!-- Portfolio Title -->
-      <div class="light-overlay ptitle">
-        <h2>Just Cool Things</h2>
-        <h5>Recent pictures I’ve taken. Check them out!</h5>
       </div>
     </section>
 
@@ -205,92 +105,59 @@
     <section id="portfolio" class="grid">
 
       <figure class="effect-portfolio wow fadeIn" data-wow-duration="1s"> <!-- Portfolio 1 -->
-        <img src="http://placehold.it/400x400" alt="01_img"/> <!-- Your image here -->
+        <img src="img/portfolio/web-cactus.png" alt="01_img"/> <!-- Your image here -->
         <figcaption> <!-- Caption -->
-          <h2>Youtube</h2>
-          <p>This is a Modal with Youtube video embeded in the portfolio.</p>
+          <h2>PROPOSAL</h2>
           <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">View more</a> <!-- Larger image popup -->
         </figcaption> <!-- End caption -->   
       </figure> <!-- End portfolio 1 -->
 
       <figure class="effect-portfolio wow fadeIn" data-wow-duration="2s"> <!-- Portfolio 2 -->
-        <img src="http://placehold.it/400x400" alt="02_img"/> <!-- Your image here -->
+        <img src="img/portfolio/web-inn on ferry.png" alt="02_img"/> <!-- Your image here -->
         <figcaption> <!-- Caption -->
-          <h2>Slider</h2>
-          <p>This is a Modal with carousel or image slider in the portfolio.</p>
+          <h2>CEREMONY and RECEPTION</h2>
           <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">View more</a><!-- Larger image popup -->
         </figcaption> <!-- End caption -->   
       </figure> <!-- End portfolio 2 -->
       
       <figure class="effect-portfolio wow fadeIn" data-wow-duration="3s"> <!-- Portfolio 3 -->
-        <img src="http://placehold.it/400x400" alt="03_img"/> <!-- Your image here -->
+        <img src="img/portfolio/web-girls.png" alt="03_img"/> <!-- Your image here -->
         <figcaption> <!-- Caption -->
-          <h2>Image</h2>
-          <p>This modal featured a single image only.</p>
+          <h2>BRIDAL PARTY</h2>
           <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">View more</a>
         </figcaption> <!-- End caption -->   
       </figure> <!-- End portfolio 3 -->
 
       <figure class="effect-portfolio wow fadeIn" data-wow-duration="4s"> <!-- Portfolio 4 -->
-        <img src="http://placehold.it/400x400" alt="04_img"/> <!-- Your image here -->
+        <img src="img/portfolio/web-michigan.png" alt="04_img"/> <!-- Your image here -->
         <figcaption> <!-- Caption -->
-          <h2>Paris</h2>
-          <p>Paris is the only city in the world where starving to death is still considered an art.</p>
+          <h2>PLAN YOUR TRIP</h2>
           <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">View more</a>
         </figcaption> <!-- End caption -->   
       </figure> <!-- End portfolio 4 -->
 
       <figure class="effect-portfolio wow fadeIn" data-wow-duration="5s"> <!-- Portfolio 5 -->
-        <img src="http://placehold.it/400x400" alt="05_img"/> <!-- Your image here -->
+        <img src="img/portfolio/web-us.png" alt="05_img"/> <!-- Your image here -->
         <figcaption> <!-- Caption -->
-          <h2>Mountains</h2>
-          <p>Look deep into nature, and then you will understand everything better.</p>
+          <h2>SNAPSHOTS</h2>
           <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">View more</a>
         </figcaption> <!-- End caption -->   
       </figure> <!-- End portfolio 5 -->
 
       <figure class="effect-portfolio wow fadeIn" data-wow-duration="6s"> <!-- Portfolio 6 -->
-        <img src="http://placehold.it/400x400" alt="06_img"/> <!-- Your image here -->
+        <img src="img/portfolio/web-plates.png" alt="06_img"/> <!-- Your image here -->
         <figcaption> <!-- Caption -->
-          <h2>Techno</h2>
-          <p>What new technology does is create new opportunities to do a job that customers want done.</p>
+          <h2>REGISTRY</h2>
           <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">View more</a>
         </figcaption> <!-- End caption -->   
       </figure> <!-- End portfolio 6 -->
-
-      <figure class="effect-portfolio wow fadeIn" data-wow-duration="1s"> <!-- Portfolio 7 -->
-        <img src="http://placehold.it/400x400" alt="07_img"/> <!-- Your image here -->
-        <figcaption> <!-- Caption -->
-          <h2>Taxi</h2>
-          <p>I m a terrible singer, but it helps when I have to call a taxi.</p>
-          <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">View more</a>
-        </figcaption> <!-- End caption -->   
-      </figure> <!-- End portfolio 7 -->
-
-      <figure class="effect-portfolio wow fadeIn" data-wow-duration="2s"> <!-- Portfolio 8 -->
-        <img src="http://placehold.it/400x400" alt="08_img"/> <!-- Your image here -->
-        <figcaption> <!-- Caption -->
-          <h2>Getaway</h2>
-          <p>He who does not get fun and enjoyment out of every day, needs to reorganize his life. </p>
-          <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">View more</a>
-        </figcaption> <!-- End caption -->   
-      </figure> <!-- End portfolio 8 -->
-
-      <figure class="effect-portfolio wow fadeIn" data-wow-duration="3s"> <!-- Portfolio 9 -->
-        <img src="http://placehold.it/400x400" alt="09_img"/> <!-- Your image here -->
-        <figcaption> <!-- Caption -->
-          <h2>Signboard</h2>
-          <p>There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will.</p>
-          <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">View more</a>
-        </figcaption> <!-- End caption -->   
-      </figure> <!-- End portfolio 9 -->
 
     </section> <!-- End Portfolio Section -->
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-    <!-- Portfolio Modal 1 -->
+    <!-- Portfolio Modal 1* PROPOSAL -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -304,26 +171,24 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Youtube Video</h2>
-                            <div class="videoWrapper">
-                                <iframe src="//www.youtube.com/embed/aZpV2Cor0rE" allowfullscreen></iframe> <!-- Your Youtube URL Here -->
-                            </div>
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p><strong>Want these theme for your portfolio?</strong> You can download this theme here for only $10, courtesy of jlpmedia.com. Awesome Photography/Portfolio Template is a bootstrap based awesome photography portfolio template. Creatively designed to present your artwork beautifully and clean. Catch more visitors and potential clients by using Solstice Photography/Portfolio Template to showcase your photography and crafts. This is mobile responsive template, very easy to use and well-documented codes.</p>
-                            <ul class="list-inline">
-                                <li>Date: August 2014</li>
-                                <li>Client: Tarsier Graphics</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>PROPOSAL</h2>
+                            <p>
+                              We had planned a trip to Fredericksburg, a cute little town full of wineries outside of Austin, Texas. The funny thing is this trip was my idea, but ended up being very convenient for Greg’s plan; one, which I was very much unaware of. When we arrived in Fredericksburg the obvious first stop would be to pick up the keys for our bed and breakfast, I couldn’t wait to go check it out. But Greg insisted that we should go see Enchanted Rock park, a place we had planned to hike in the morning. Agreeable and oblivious, we headed for the park. Preparing for a fun hike I changed into a tank top, sports bra and hiking boots giving Greg a chance to grab the ring from his bag in the trunk.
+                            </p>
+                            <p>
+                              Let me set the scene, beautiful rocky park and the sun is about to set. Still completely unaware of what’s going on, I want to get up to the top before the sun sets so we’re really trekking. We get to the top, the sky is beautiful and pink. The moon is starting to come out. I’m taking the in the view and turn around to Greg, who is down on one knee.  I have no idea what he said, I’m sure something very sweet, but all of the sudden I was down on my knees too. He makes sure everyone knows I cried (it was only a little) and obviously accepted.
+                            </p>
+                            <p>
+                              We had an amazing weekend and sampled a bunch of wine.
+                            </p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Me</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Portfolio Modal 2 -->
+    <!-- Portfolio Modal 2* CEREMONY AND RECEPTION -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -337,51 +202,24 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Slider Image</h2>
-
-                            <div id="slider" class="carousel slide" data-ride="carousel">
-
-                              <!-- Wrapper for slides -->
-                              <div class="carousel-inner">
-                                <div class="item active">
-                                  <img src="http://placehold.it/550x400" alt="...">
-                                </div>
-                                <div class="item">
-                                  <img src="http://placehold.it/550x400" alt="...">
-                                </div>
-                                <div class="item">
-                                  <img src="http://placehold.it/550x400" alt="...">
-                                </div>
-                                <div class="item">
-                                  <img src="http://placehold.it/550x400" alt="...">
-                                </div>
-                              </div>
-
-                              <!-- Controls -->
-                              <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
-                                <span class="fa fa-caret-left fa-2x"></span>
-                              </a>
-                              <a class="right carousel-control" href="#slider" role="button" data-slide="next">
-                                <span class="fa fa-caret-right fa-2x"></span>
-                              </a>
-                            </div>
-
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p><strong>Want these theme for your portfolio?</strong> You can download this theme here for only $10, courtesy of jlpmedia.com. Awesome Photography/Portfolio Template is a bootstrap based awesome photography portfolio template. Creatively designed to present your artwork beautifully and clean. Catch more visitors and potential clients by using Solstice Photography/Portfolio Template to showcase your photography and crafts. This is mobile responsive template, very easy to use and well-documented codes.</p>
-                            <ul class="list-inline">
-                                <li>Date: August 2014</li>
-                                <li>Client: Tarsier Graphics</li>
-                                <li>Category: Image Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>CEREMONY AND RECEPTION</h2>
+                            <p>
+                              The ceremony and reception will be held at the Inn on Ferry Street. It’s an outdoor event but will be on cobblestone and pavement, so no need to worry about your heels sinking into grass. The average temperature for July in Detroit is a low of 65 and high of 85.
+                            </p>
+                            <p>
+                              The Inn on Ferry Street is located in midtown Detroit, just steps from the state’s finest museums, hotels and dining. Consisting of four restored Victorian homes, and two carriage houses the Inn abounds in sophisticated luxury. The Inn evokes a strong sense of history that provides the perfect atmosphere for weddings, receptions and other social events.  
+                            </p>
+                            <p>
+                              East Ferry Street was originally developed in the late 1800s into an upper-class neighborhood. Eventually the homes collectively came under ownership by the Detroit Institute of Arts in the 1970s and remained so until the renovation of the buildings began in February 2000 for The Inn On Ferry Street. They continue to be a hidden gem in the city.
+                            </p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Me</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Portfolio Modal 3 -->
+    <!-- Portfolio Modal 3* BRIDAL PARTY-->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -395,24 +233,81 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Single Image</h2>
-                            <img class="img-responsive" src="http://placehold.it/550x400" alt="Image">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p><strong>Want these theme for your portfolio?</strong> You can download this theme here for only $10, courtesy of jlpmedia.com. Awesome Photography/Portfolio Template is a bootstrap based awesome photography portfolio template. Creatively designed to present your artwork beautifully and clean. Catch more visitors and potential clients by using Solstice Photography/Portfolio Template to showcase your photography and crafts. This is mobile responsive template, very easy to use and well-documented codes.</p>
+                            <h2>BRIDAL PARTY</h2>
+
+                            <div id="slider" class="carousel slide" data-ride="carousel">
+
+                              <!-- Wrapper for slides -->
+                              <div class="carousel-inner">
+                                  <div class="item active">
+                                    <img src="img/bridal party/web_jenn coury.png">
+                                  </div>
+                                  <div class="item">  
+                                    <img src="img/bridal party/web-alex.png">
+                                  </div>
+                                  <div class="item">  
+                                    <img src="img/bridal party/web-carly.png">
+                                  </div>
+                                  <div class="item">  
+                                    <img src="img/bridal party/web-chad.png">
+                                  </div>
+                                  <div class="item">  
+                                    <img src="img/bridal party/web-dennis.png">
+                                  </div>
+                                  <div class="item">  
+                                    <img src="img/bridal party/web-hadley.png">
+                                  </div>
+                                  <div class="item">  
+                                    <img src="img/bridal party/web-jenn morrison.png">
+                                  </div>
+                                  <div class="item">  
+                                    <img src="img/bridal party/web-natalie.png">
+                                  </div>
+                                  <div class="item">  
+                                    <img src="img/bridal party/web-rob.png">
+                                  </div>
+                                  <div class="item">  
+                                    <img src="img/bridal party/web-ryan.png">
+                                  </div>
+                                  <div class="item">  
+                                    <img src="img/bridal party/web-sarah.png">
+                                  </div>
+                              </div>
+
+                              <!-- Controls -->
+                              <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+                                <span class="fa fa-caret-left fa-2x"></span>
+                              </a>
+                              <a class="right carousel-control" href="#slider" role="button" data-slide="next">
+                                <span class="fa fa-caret-right fa-2x"></span>
+                              </a>
+                            </div>
+
                             <ul class="list-inline">
-                                <li>Date: August 2014</li>
-                                <li>Client: Tarsier Graphics</li>
-                                <li>Category: Graphic Design</li>
+                              <li>Sarah (Reinoehl) Alberts, Traci’s childhood friend and maid of honor</li>
+                              <li>Jennifer Morrison, Traci’s sister and Hadley’s mom</li>
+                              <li>Carly Dickinson, Traci’s sister in law and Natalie’s mom</li>
+                              <li>Jennifer Coury, Greg’s sister</li>
                             </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <ul class="list-inline">
+                              <li>Rob Carlson, Greg’s brother and best man</li>
+                              <li>Ryan Stennett, Greg’s step-brother</li>
+                              <li>Chad Stennett, Greg’s step-brother</li>
+                              <li>Dennis Andrejko, Traci’s older brother</li>
+                              <li>Alex Andrejko, Traci’s little brother</li>
+                            </ul>
+                            <ul class="list-inline">
+                              <li>Hadley Morrison, Traci’s niece</li>
+                              <li>Natalie Dickinson, Traci’s niece</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Me</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Portfolio Modal 4 -->
+    <!-- Portfolio Modal 4* PLAN YOUR TRIP -->
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -426,24 +321,112 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Paris</h2>
-                            <img class="img-responsive" src="http://placehold.it/550x400" alt="Image">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p><strong>Want these theme for your portfolio?</strong> You can download this theme here for only $10, courtesy of jlpmedia.com. Awesome Photography/Portfolio Template is a bootstrap based awesome photography portfolio template. Creatively designed to present your artwork beautifully and clean. Catch more visitors and potential clients by using Solstice Photography/Portfolio Template to showcase your photography and crafts. This is mobile responsive template, very easy to use and well-documented codes.</p>
-                            <ul class="list-inline">
-                                <li>Date: August 2014</li>
-                                <li>Client: Tarsier Graphics</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>PLAN YOUR TRIP</h2>
+                            <p>
+                              I’ve always loved Detroit, it’s full of history and grit and charm that not everyone sees. My dad used to run the restaurant and catering at the DIA, where my brothers and I spent many an afternoon wandering the galleries. My gramma would take us to the Fox and Cobo for various events to ensure we had culture in our lives. When I started planning my wedding I knew it would be in Michigan and I wanted it to be a location that would be fun for everyone coming from out of town. I hope I managed that, and you can take a glance at some of our favorite spots in Detroit proper and the suburbs north of the city.
+                            </p>
+                            <p>
+                              There are so many amazing restaurants, too many to visit in a weekend,  so here are a select few. Corktown and Midtown have had a rebirth and they’re a bunch of new places I don’t even know about. Greg recently sent me this article, which I found funny and helpful… <a href="http://www.thrillist.com/entertainment/detroit/the-worst-decisions-you-can-make-in-detroit">Click Me</a>
+                            </p>
+                            <h2>ACCOMODATIONS</h2>
+                            <p>
+                              Here are a few suggestions for hotels nearby:
+                            </p>
+                            <p>
+                              Westin Book Cadillac
+                              1114 Washington Boulevard, Detroit, MI 48226
+                              http://www.bookcadillacwestin.com/
+                            </p>
+                            <p>
+                              The MGM Grand Detroit
+                              1777 Third Street, Detroit, MI 48226
+                              http://www.mgmgranddetroit.com/hotel/
+                              Doubletree Fort Shelby
+                              525 West Lafayette Boulevard, Detroit, MI 48226
+                              http://doubletree3.hilton.com/en/hotels/michigan/doubletree-suites-by-hilton-hotel-detroit-downtown-fort-shelby-DTTLFDT/index.html
+                            </p>
+                            <h2>RESTAURANTS and BARS</h2>
+                            <p>
+                              Supino Pizzeria
+                              2457 Russell Street, Detroit, MI 48207 in Eastern Market
+                              http://supinopizzeria.com/
+                              Expect a wait, it’s a tiny place, but expect delicious giant thin crust pizza. Guy Fieri went once, so it must be cool right? And get one with speck on it, because its speck.
+                            </p>
+                            <p>
+                              Green Dot Stables
+                              2200 West Lafayette, Detroit, MI 48216
+                              http://greendotstables.com/
+                              Opened by my brother’s longtime friend and his wife, Green Dot has become a Detroit staple. With weekly specials and a menu full of gourmet sliders and sides, everything is $3. Again, a wait is generally expected but so is a belly full of amazing food. I generally go straight here from the airport for lunch or dinner.
+                            </p>
+                            <p>
+                              Café d’Mongos Speakeasy
+                              1439 Griswold Street, Detroit, MI 48226
+                              A hole in the wall across the street from a gentlemens club, this speakeasy gets pretty full late night. The soul food menu and décor (obviously collected over many years) creates a cool atmosphere for taking in the live music that’s bound to be on.
+                            </p>
+                            <p>
+                              Bucharest Grill
+                              2040 Park Avenue, Detroit, MI 48226 inside the Park Bar
+                              They serve shawarma with fries inside. INSIDE. That’s serious.
+                            </p>
+                            <p>
+                              Cliff Bell’s
+                              2030 Park Avenue, Detroit, MI 48226
+                              A jazz club almost as old as prohibition, opened in 1935 and done up in mahogany and brass. With a menu to delight and an art deco atmosphere that brings you right back to the 30s. The Croque Madam is a must order!
+                            </p>
+                            <p>
+                              Anita’s Kitchen
+                              22651 Woodward Avenue, Ferndale, MI 48220
+                              http://anitaskitchenonline.com/
+                              This Lebanese menu is a stop for the two of us every time we’re in town. The hummus is amazing and even better if you mix in the garlic sauce, just commit to smelling like it afterwards. The lamb shank is another serious commitment but I regret when I don’t order it. Greg’s go to is the lemon chicken, which sounds ordinary but they manage to take it up a notch. Oh, it’s also in the hood I used to live in before moving to Dallas.
+                            </p>
+                            <p>
+                              Vinsetta Garage
+                              27799 Woodward Avenue, Berkley, MI 48072
+                              http://vinsettagarage.com/
+                              An auto shop turned cool restaurant with a bathroom floor worth every cent. This place has mac n’ cheese that will literally change your life, and there are two foods I can’t lie about, mac n’ cheese and hummus. They have other things on the menu, but it’s parmesan crusted, so the mac is undeniable. 
+                            </p>
+                            <h2>ATTRACTIONS</h2>
+                            <p>
+                              Leon and Lulu
+                              96 West 14 Mile Road, Clawson, MI 48017
+                              https://leonandlulu.com/
+                              This eclectic home and accessories store resides a couple blocks from Greg’s first apartment. It used to be the Ambassador Roller Rink, so you’ll find the shop girls on roller skates serving popcorn and refreshments. If Greg let me, I would buy everything in the place!
+                            </p>
+                            <p>
+                              The Detroit Institute of Arts
+                              5200 Woodward Avenue, Detroit, MI 48203
+                              http://www.dia.org/
+                              The DIA is just steps from the Inn on Ferry street and its collection is among the top six in the United States, comprising a multicultural and multinational survey of human creativity from prehistory through the 21st century. It houses Diego Rivera’s, Detroit Industry, which he considers his most successful work, which is worth the admission alone. It has a special place in my heart and a secret spiral staircase that leads from the first floor to the Victorian gallery that we loved going up and down as kids.
+                            </p>
+                            <p>
+                              Eastern Market
+                              http://www.detroiteasternmarket.com/
+                              A gem of the city, full of retailers and restaurants, its an amazing overgrown farmers market. Visit Roma Café for homemade Italian served by an all male staff that may or may not be connected to the mob.  If you want some great thai, visit Sala Thai in the restored firehouse. Visit the Detroit Mercantile Company for Michigan made gifts and clothes. Pop in R. Hirt Jr. Co for snacks and goodies or in Savvy Chic for candles and home items galore.
+                            </p>
+                            <p>
+                              The Heidelberg Project
+                              3600 Heidelberg Street, Detroit, MI 48207
+                              https://heidelbergorg.presencehost.net/
+                              An outdoor community art environment started by Tyree Guyton in 1986, originally designed as a creative response to the ongoing blight and decay in the neighborhood he grew up in. The elements of the canvases, many of which are the houses themselves, are made up of found objects, most of which were salvaged from the streets of the city.
+                            </p>
+                            <p>
+                              The Henry Ford Museum and Greenfield Village
+                              20900 Oakwood, Dearborn, MI 48124
+                              www.thehenryford.org
+
+                              The Henry Ford is the ultimate place to explore what Americans past and present have imagined and invented. It’s impossible not to feel a sense of awe as your mind adjusts to a different sense of scale — more vast, more expansive and more diverse— by far— than anything you'll encounter in everyday life. The sweeping, single-floor space with its soaring 40-foot ceilings covers nine acres dedicated to showcasing the finest collection of its kind ever assembled.
+
+                              Entering Greenfield Village is like stepping into an 80-acre time machine. It takes you back to the sights, sounds and sensations of America’s past. There are 83 authentic, historic structures, from Noah Webster’s home, where he wrote the first American dictionary, to Thomas Edison’s Menlo Park laboratory, to the courthouse where Abraham Lincoln practiced law. You can ride in a genuine Model T or “pull” glass with world-class artisans. Greenfield Village is a celebration of people — people whose unbridled optimism came to define modern-day America.
+                              http://www.thrillist.com/entertainment/detroit/the-worst-decisions-you-can-make-in-detroit
+                            </p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Me</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Portfolio Modal 5 -->
+    <!-- Portfolio Modal 5* SNAPSHOTS -->
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -457,22 +440,40 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Mountains</h2>
+                            <h2>SNAPSHOTS</h2>
                             <div id="slider2" class="carousel slide" data-ride="carousel">
 
                               <!-- Wrapper for slides -->
                               <div class="carousel-inner">
                                 <div class="item active">
-                                  <img src="http://placehold.it/550x400" alt="...">
+                                  <img src="img/TG/TG 1.png" alt="...">
                                 </div>
                                 <div class="item">
-                                  <img src="http://placehold.it/550x400" alt="...">
+                                  <img src="img/TG/TG 2.png" alt="...">
                                 </div>
                                 <div class="item">
-                                  <img src="http://placehold.it/550x400" alt="...">
+                                  <img src="img/TG/TG 3.png" alt="...">
                                 </div>
                                 <div class="item">
-                                  <img src="http://placehold.it/550x400" alt="...">
+                                  <img src="img/TG/TG 4.png" alt="...">
+                                </div>
+                                <div class="item">
+                                  <img src="img/TG/TG 5.png" alt="...">
+                                </div>
+                                <div class="item">
+                                  <img src="img/TG/TG 6.png" alt="...">
+                                </div>
+                                <div class="item">
+                                  <img src="img/TG/TG 7.png" alt="...">
+                                </div>
+                                <div class="item">
+                                  <img src="img/TG/TG 8.png" alt="...">
+                                </div>
+                                <div class="item">
+                                  <img src="img/TG/TG 9.png" alt="...">
+                                </div>
+                                <div class="item">
+                                  <img src="img/TG/TG 10.png" alt="...">
                                 </div>
                               </div>
 
@@ -484,14 +485,7 @@
                                 <span class="fa fa-caret-right fa-2x"></span>
                               </a>
                             </div>
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p><strong>Want these theme for your portfolio?</strong> You can download this theme here for only $10, courtesy of jlpmedia.com. Awesome Photography/Portfolio Template is a bootstrap based awesome photography portfolio template. Creatively designed to present your artwork beautifully and clean. Catch more visitors and potential clients by using Solstice Photography/Portfolio Template to showcase your photography and crafts. This is mobile responsive template, very easy to use and well-documented codes.</p>
-                            <ul class="list-inline">
-                                <li>Date: August 2014</li>
-                                <li>Client: Tarsier Graphics</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Me</button>
                         </div>
                     </div>
                 </div>
@@ -512,218 +506,25 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Technology</h2>
-                            <img class="img-responsive" src="http://placehold.it/550x400" alt="Image">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p><strong>Want these theme for your portfolio?</strong> You can download this theme here for only $10, courtesy of jlpmedia.com. Awesome Photography/Portfolio Template is a bootstrap based awesome photography portfolio template. Creatively designed to present your artwork beautifully and clean. Catch more visitors and potential clients by using Solstice Photography/Portfolio Template to showcase your photography and crafts. This is mobile responsive template, very easy to use and well-documented codes.</p>
-                            <ul class="list-inline">
-                                <li>Date: August 2014</li>
-                                <li>Client: Tarsier Graphics</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Registry</h2>
+                            <p>We’re registered at the following places, but feel free to go off script and get us a pair of kayaks.</p>
+                            <a href="https://www.anthropologie.com/anthro/registry/index.jsp#/home?cm_sp=HEADER-_-Main-_-Registry" target="_blank">
+                              <img class="" src="img/registry/button anthropologie.png" alt="Image">
+                            </a>
+                            <a href="http://www.crateandbarrel.com/Gift-Registry/?sitelinks=WeddingGiftRegistry&a=784" target="_blank">
+                              <img class="" src="img/registry/button crate and barrel.png" alt="Image">
+                            </a>
+                            <a href="https://www.macys.com/registry/wedding/registrysearch?&cm_sp=reg_hdr-_-wedding-registry-_-find-a-couple%27s-registry" target="_blank">
+                              <img class="" src="img/registry/button macys.png" alt="Image">
+                            </a>
+                            <br>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Me</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Portfolio Modal 7 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Freedom</h2>
-                            <img class="img-responsive" src="http://placehold.it/550x400" alt="Image">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p><strong>Want these theme for your portfolio?</strong> You can download this theme here for only $10, courtesy of jlpmedia.com. Awesome Photography/Portfolio Template is a bootstrap based awesome photography portfolio template. Creatively designed to present your artwork beautifully and clean. Catch more visitors and potential clients by using Solstice Photography/Portfolio Template to showcase your photography and crafts. This is mobile responsive template, very easy to use and well-documented codes.</p>
-                            <ul class="list-inline">
-                                <li>Date: August 2014</li>
-                                <li>Client: Tarsier Graphics</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio Modal 8 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Freedom</h2>
-                            <img class="img-responsive" src="http://placehold.it/550x400" alt="Image">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p>
-                                <strong>Want these theme for your portfolio?</strong> You can download 60 of them for free, courtesy of jlpmedia.com, or you can purchase the 1500 icon set <a href="#">here</a>.</p>
-                            <ul class="list-inline">
-                                <li>Date: August 2014</li>
-                                <li>Client: Tarsier Graphics</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio Modal 9 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Freedom</h2>
-                            <img class="img-responsive" src="http://placehold.it/550x400" alt="Image">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p><strong>Want these theme for your portfolio?</strong> You can download this theme here for only $10, courtesy of jlpmedia.com. Awesome Photography/Portfolio Template is a bootstrap based awesome photography portfolio template. Creatively designed to present your artwork beautifully and clean. Catch more visitors and potential clients by using Solstice Photography/Portfolio Template to showcase your photography and crafts. This is mobile responsive template, very easy to use and well-documented codes.</p>
-                            <ul class="list-inline">
-                                <li>Date: August 2014</li>
-                                <li>Client: Tarsier Graphics</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Call-To-Action Section
-    ================================================== -->
-    <section id="subscribe"> 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 wow fadeIn" data-wow-delay="0.2s">
-            <p><span>For more photos and to get them weekly via email. Click to...</span></p>
-          </div>
-          <div class="col-md-4 wow fadeIn" data-wow-delay="0.4s">
-            <a class="page-scroll" href="#footer"><span class="btn right">SUBSCRIBE</span></a> <!-- Subscribe button -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section
-    ================================================== -->
-    <section id="about"> <!-- Start about -->
-      <div class="about-content wow fadeIn" data-wow-delay="2s">
-        <div class="container"> <!-- Container -->
-          <h2>Liam Palms</h2> <!-- Your name or agency name here -->
-          <p class="large">NY, New York</p> <!-- Your address -->
-          <p class="small">www.awesomephotography.com</p> <!-- Your website -->
-          <br>
-          <p class="large">I love. Music. Dogs. Biking. Coffee.</p> <!-- Tell more about you -->
-          <p class="atext">Velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in. vulputate.</p>
-        </div>
-      </div> <!-- End container -->
-    </section> <!-- End about -->
-
-    <!-- Footer Section
-    ================================================== -->
-    <section id="footer"> <!-- Start footer -->
-      <div class="container"> <!-- Container -->
-        <a href="#"><img src="img/07_footer-logo.png" alt="footer-logo"></a>
-        <br>
-        <br>
-        <!-- Buttons --> 
-        <a id="show" class="btn wow bounceIn" data-wow-delay="0.6s"><h2>WORK w/ ME</h2></a> <!-- Button to click toggle contact form -->
-        <br>
-        <p>liampalm@awesomephotography.com</p> <!-- Your email add here -->
-        <p>www.awesomephotography.com</p> <!-- Any other information here -->
-      </div> <!-- End container -->
-    </section> <!-- End footer -->
-
-    <!-- Toggle Contact Section
-    ================================================== -->
-    <section id="contact">  <!-- Start contact -->
-      <div class="container"> <!-- Container -->
-            <form name="sentMessage" id="contactForm" novalidate>  <!-- Contact form -->
-              <div class="row">
-                <div class="col-md-6"> <!-- 6 column grid left form -->
-                  <div class="form-group"> <!-- Your name input -->
-                    <input type="text" autocomplete="off" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div> 
-                  <div class="form-group"> <!-- Your email input -->
-                    <input type="email" autocomplete="off" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">                            
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group"> <!-- Your phone no. input -->
-                    <input type="tel" autocomplete="off" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div> <!-- End 6 column grid left form -->
-                <div class="col-md-6"> <!-- 6 column grid right form-->
-                  <div class="form-group"> <!-- Your message input -->
-                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div> <!-- End 6 column grid right form-->
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button type="submit" class="btn btn-send">Send Message</button> <!-- Send button -->
-                </div>
-              </div>
-            </form> <!-- End contact form -->
-      </div> <!-- End container -->
-    </section> <!-- Start contact -->
-    
-    <!-- About Section
-    ================================================== -->
-    <section id="socials">
-      <div class="container wow bounceIn" data-wow-delay="0.4s">
-        <p>To get the latest update of me and my works</p>
-        <p> >> <span class="follow"> Follow Me </span>  &lt;&lt; </p>
-        <ol class="social">
-          <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li> <!-- Change # with your facebook link -->
-          <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li> <!-- Change # with your twitter link -->
-          <li><a href="#"><i class="fa fa-behance fa-2x"></i></a></li> <!-- Change # with your behance link -->
-          <li><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li> <!-- Change # with your dribbble link -->
-          <li><a href="#"><i class="fa fa-flickr fa-2x"></i></a></li> <!-- Change # with your flickr link -->
-          <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li> <!-- Change # with your googleplus link -->
-          <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li> <!-- Change # with your instagram link -->
-        </ol>
-      </div>
-    </section>
-
-    <div id="footer-nav">  <!-- Copyright notice on the bottom -->
-      <span>© 2014 Awesome Phtography. All Rights Reserved.</span>
-    </div>
-
-
 
     <!-- jQuery / JavaScript plugins
     ================================================== -->

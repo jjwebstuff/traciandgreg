@@ -14,8 +14,8 @@ Updated: August 23, 2014
     .thumbnail a > img,
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
-        max-width: 120%;
-        height: 650px;
+        /*max-width: 120%;*/
+        /*height: 650px;*/
     }
     h1 { font-size: 5em }
     .carousel-control.right img,
@@ -64,8 +64,8 @@ Updated: August 23, 2014
     .thumbnail a > img,
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
-        width: 300%;
-        height: 550px;
+/*        width: 300%;
+        height: 550px;*/
     }
     .portfolio-modal .modal-content img {
         margin-bottom: 30px;
@@ -99,13 +99,13 @@ Updated: August 23, 2014
     .thumbnail a > img,
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
-        width: 300%;
+/*        width: 300%;
         height: 350px;
-        margin-left: -50px;
+        margin-left: -50px;*/
     }
     #vision {
-        background-image: url('../img/02_mobile_services.jpg');
-        height: 500px;
+/*        background-image: url('../img/02_mobile_services.jpg');
+        height: 500px;*/
     }
     .dark-overlay {
         height: 350px;
