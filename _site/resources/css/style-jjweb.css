@@ -1,0 +1,41 @@
+figure.effect-portfolio:hover h2{
+	color: #002EB8;
+}
+#vision{
+	background: none;
+	background-color: white;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+figure.effect-portfolio h2 {
+	padding-top: 35%;
+}
+.portfolio-modal .modal-content p.bridal-party{
+	margin-bottom: 0px;
+}
+address{
+	font-size: 14px;
+}
+.portfolio-modal .modal-content h2{
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	/*color: #fff;*/
+	background-color: #002EB8;
+	border-color: #002EB8;
+}
+a:hover, a:focus, a:active, a.active {
+	color: #002EB8;
+}
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+/*outline: 0;*/
+	color: #002EB8;
+}
+.carousel-control:hover, .carousel-control:focus {
+	color: #002EB8;
+}
+.carousel-control.right span.fa:hover, .carousel-control.left span.fa:hover {
+	border: 1px solid #002EB8;
+}
