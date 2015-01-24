@@ -39,3 +39,8 @@ a:hover, a:focus, a:active, a.active {
 .carousel-control.right span.fa:hover, .carousel-control.left span.fa:hover {
 	border: 1px solid #002EB8;
 }
+@media (max-width: 720px){
+	.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	margin-top: 40px;
+	}
+}
